@@ -1,0 +1,14 @@
+[project]
+name = "mini-vault"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "argon2-cffi>=25.1.0",
+    "cryptography>=49.0.0",
+]
+
+[tool.pyrefly]
+search-path = ["."]
+
