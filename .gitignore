@@ -9,5 +9,11 @@ wheels/
 # Virtual environments
 .venv
 
-tests/
 docs/
+
+uv.lock
+
+data/
+.vault-token
+demo_test.sh
+.pytest_cache
